@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color-prussian-blue: #0F172A;
+    --color-deep-space-blue: #1E293B;
+    --color-platinum: #F1F5F9;
+    --color-cool-steel: #94A3B8;
+    --color-blue-violet: #7C3AED;
+    --color-sky-aqua: #22D3EE;
+    --color-amber-gold: #FBBF24;
+    --color-charcoal-blue: #334155;
+}
+
+.font-lilita{
+    font-family: Lilita One;
+}
+
+.font-montserrat{
+    font-family: Montserrat;
+}
+
+body{
+    margin: 0px;
+    font-family: Montserrat;
+    font-size: 20px;
+    color: var(--color-platinum);
+    background-color: var(--color-deep-space-blue);
+}
+
+h1{
+    font-family: Lilita One;
+    font-size: 75px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--color-platinum);
+}
+
+h2{
+    font-family: Lilita One;
+    font-size: 30px;
+    margin: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: var(--color-platinum);
+}
+
+h3{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    color: var(--color-amber-gold);
+}
+
+h4{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: var(--color-cool-steel);
+}
+
+hr{
+    height: 5px;
+    background-color: var(--color-cool-steel);
+}

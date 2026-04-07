@@ -72,6 +72,44 @@ hr{
     background-color: var(--color-cool-steel);
 }
 
+a{
+    color: var(--color-blue-violet);
+    text-decoration: none;
+}
+
 .border-radius{
     border-radius: 18px;
+}
+
+nav{
+    background-color: var(--color-prussian-blue);
+    height: 80px;
+    align-content: center;
+}
+
+.logo{
+    max-width: 100%;
+    height: auto;
+}
+
+.menu{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    justify-content: space-around;
+    
+}
+
+li{
+    cursor: pointer;
+}
+
+.clear-list{
+    list-style-type: none;
+}
+
+.center{
+    display: flex;
+    align-items: center;
 }

@@ -7,11 +7,23 @@
 	    <meta name="keywords" content="Web Oficial, PauJam, Blog, Jocs, Noticies">
 	    <meta name="author" content="">
 
-        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="../css/styles.css">
 	    <link rel="apple-touch-icon" href="">
 	    <link rel="icon" href="" type="">
 
 	    <title>PauJam</title>
+        
+        <!-- Mala pràctica. Només en aquest html com a exemple -->
+        <style>
+            .contenedor{
+                display: flex;
+            }
+            .cuadrado{
+                width: 150px;
+                height: 150px;
+                background-color: white;
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -25,6 +37,9 @@
         <h3>Aquest és l'h3</h3>
         <h4>Aquest és l'h4</h4>
         <p>Aquesta és una prova de un paràgraf.</p>
+        <div class="contenedor">
+            <div class="cuadrado border-radius"></div>
+        </div>
 	    
         <footer>
         </footer>

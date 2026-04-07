@@ -77,10 +77,8 @@ a{
     text-decoration: none;
 }
 
-.border-radius{
-    border-radius: 18px;
-}
 
+/* Navigation bar */
 nav{
     background-color: var(--color-prussian-blue);
     height: 80px;
@@ -109,7 +107,13 @@ li{
     list-style-type: none;
 }
 
-.center{
+.center-flex-items{
     display: flex;
     align-items: center;
+}
+
+
+/* Image border */
+.border-radius{
+    border-radius: 18px;
 }

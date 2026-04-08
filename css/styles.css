@@ -85,7 +85,7 @@ nav{
     align-content: center;
 }
 
-.logo{
+.responsive-image{
     max-width: 100%;
     height: auto;
 }
@@ -116,4 +116,67 @@ li{
 /* Image border */
 .border-radius{
     border-radius: 18px;
+}
+
+
+/* Margins and Paddings */
+.margin-left-10pc{
+    margin-left: 10%;
+}
+.margin-right-10pc{
+    margin-right: 10%;
+}
+.padding-20px{
+    padding: 20px;
+}
+
+/* Gap */
+.gap-5pc{
+    gap: 5%;
+}
+.gap-30px{
+    gap: 30px;
+}
+
+
+/* Flexbox */
+.flex{
+    display: flex;
+}
+.align-items-center{
+    align-items: center;
+}
+.flex-direction-column{
+    flex-direction: column;
+}
+
+
+/* Grid */
+
+
+/* Text */
+.text-align-center{
+    text-align: center;
+}
+
+.text-align-justify{
+    text-align: justify;
+}
+
+/* Blog.html */
+.blog-image-size{
+    width: 256px;
+    height: 256px;
+    object-fit: cover;
+}
+.blog-text-size{
+    font-size: 14px;
+}
+
+/* Color */
+.bg-color-platinum{
+    background-color: var(--color-platinum);
+}
+.text-black{
+    color: black;
 }

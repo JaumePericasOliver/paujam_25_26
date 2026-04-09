@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="Pàgina web oficial de la Paujam 25-26.">
+	    <meta name="keywords" content="Web Oficial, PauJam, Blog, Jocs, Noticies">
+	    <meta name="author" content="">
+
+        <link rel="stylesheet" href="../css/styles.css">
+	    <link rel="apple-touch-icon" href="">
+	    <link rel="icon" href="" type="">
+
+	    <title>PauJam</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+	        </nav>
+        </header>
+	    
+        <h1 class="text-align-center">Classificació</h1>
+
+        <div class="flex flex-direction-column gap-30px">
+            <div class="flex margin-left-10pc margin-right-10pc bg-color-charcoal-blue border-radius align-items-center gap-10px padding-left-10px">
+                <img src="../images/flechaDropdown.webp" alt="Dropdwon arrow">
+                <form action="" class="width-100pc">
+                    <select id="dropDown" class="clean-dropdown width-100pc">
+                        <option value="" selected disabled hidden>Selecciona un joc...</option>
+                        <option value="game1">three faces</option>
+                        <option value="game2">UwUguasho</option>
+                        <option value="game3">OUT Escamas De Cautiverio</option>
+                        <option value="game4">Coin Flip Tower</option>
+                        <option value="game5">Humanity edge</option>
+                        <option value="game6">Project y</option>
+                    </select>
+                </form>
+            </div>
+
+            <div class="flex flex-direction-column margin-left-10pc margin-right-10pc bg-color-charcoal-blue border-radius justify-content-center padding-20px align-items-center">
+                <div class="flex bg-color-deep-space-blue border-radius padding-left-20px padding-right-20px">
+                    <h2 class="margin-top-10px margin-bottom-10px" id="gameName">-</h2>
+                </div>
+
+                <p id="loading" class="hide">Carregant...</p>
+
+                <div class="flex align-items-flex-end justify-content-center gap-20px podios">
+                    <div class="flex flex-direction-column contenedor-podios">
+                        <p class="text-align-center name-points" id="name2">Jugador</p>
+                        <div class="flex flex-direction-column podio2 bg-color-blue-violet align-items-center justify-content-space-between">
+                            <p class="podio-number">2</p>
+                            <p class="name-points" id="points2">Pts</p>
+                        </div>
+                    </div>
+                    <div class="contenedor-podios">
+                        <div class="flex justify-content-center margin-top-30px"><img src="../images/corona.webp" alt="" class=""></div>
+
+                        <p class="text-align-center name-points" id="name1">Jugador</p>
+
+                        <div class="flex flex-direction-column podio1 bg-color-amber-gold align-items-center justify-content-space-between">
+                            <p class="podio-number">1</p>
+                            <p class="name-points" id="points1">Pts</p>
+                        </div>
+                    </div>
+
+                    <div class="contenedor-podios">
+                        <p class="text-align-center name-points" id="name3">Jugador</p>
+                        <div class="flex flex-direction-column podio3 bg-color-blue-violet align-items-center justify-content-space-between">
+                            <p class="podio-number">3</p>
+                            <p class="name-points" id="points3">Pts</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+        <hr>
+        <div class="flex flex-direction-column align-items-center margin-left-20pc margin-right-20pc">
+            <h2>Premis</h2>
+            <p class="text-align-justify margin-top-0px">Tant el <span class="enfasis-texto">guanyador</span> del <span class="enfasis-texto">joc</span> com els <span class="enfasis-texto">jugadors</span> amb la <span class="enfasis-texto">puntuació</span> més <span class="enfasis-texto">alta</span> de cada joc obtendrà un <span class="enfasis-texto">premi</span>.</p>
+        </div>
+
+        <footer>
+        </footer>
+	
+        <script src="../js/classificacio/classificacio.js"></script>
+    </body>
+</html>

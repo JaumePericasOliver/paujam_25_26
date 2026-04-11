@@ -126,14 +126,40 @@ li{
 .margin-right-10pc{
     margin-right: 10%;
 }
+
+.margin-top-5pc{
+    margin-top: 5%;
+}
+
 .padding-20px{
     padding: 20px;
+}
+
+.padding-40px{
+    padding: 40px;
+}
+
+.padding-5pc{
+    padding: 5%;
+}
+
+.padding-2pc{
+    padding: 2%;
+}
+
+.padding-20pc{
+    padding: 10%;
 }
 
 /* Gap */
 .gap-5pc{
     gap: 5%;
 }
+
+.gap-20pc{
+    gap: 20%;
+}
+
 .gap-30px{
     gap: 30px;
 }
@@ -148,6 +174,14 @@ li{
 }
 .flex-direction-column{
     flex-direction: column;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.align-content-center{
+    align-content: center;
 }
 
 
@@ -179,4 +213,89 @@ li{
 }
 .text-black{
     color: black;
+}
+
+/* Index.html */
+.participants::before{
+    content:"0 " ;
+    color: var(--color-blue-violet);
+}
+
+.ubicacio::before{
+    content:"0 " ;
+    color: var(--color-blue-violet);
+}
+
+.progress-bar{
+    width: 100%;
+    max-width: 600px;
+    height: 14px;
+    background-color: #312d5e;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress {
+    width: 40%;
+    height: 100%;
+    background: var(--color-blue-violet);
+}
+
+.index-patrocinadors{
+    height: 100px;
+    background-color: var(--color-charcoal-blue);
+}
+
+.en-que-consisteix{
+    background-color: var(--color-deep-space-blue);
+    background-image: url(../images/EnQueConsisteix.webp);
+    background-size: cover;
+    background-color: rgb(15, 23, 42, 0.6);
+    background-blend-mode: darken;
+}
+
+.horari{
+    background-image: url(../images/Horari.webp);
+    background-size: cover;
+    background-color: rgb(15, 23, 42, 0.6);
+    background-blend-mode: darken;
+}
+
+.ubicacio-image-size{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.normativa{
+    background-image: url(../images/Normativa2.webp);
+    background-size: cover;
+    background-color: rgb(15, 23, 42, 0.6);
+    background-blend-mode: darken;
+}
+
+.index-jocs-presentats{
+    background-color: var(--color-blue-violet);
+    color: var(--color-platinum);
+    padding: 1%;
+    border-style: none;
+    border-radius: 18px;
+    width: 25%;
+    height: 10%;
+    cursor: pointer;
+}
+
+.index-jocs-presentats:hover{
+    background-color: var(--color-blue-violet);
+    opacity: 0.6;
+}
+
+.moneda-image-size{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.derechos{
+    background-color: var(--color-charcoal-blue);
 }

@@ -2,18 +2,20 @@ const jocs = [
     {
         video: "../images/video.webp",
         imatge: "../images/image.webp",
-        titol: "Flip Coin Tower",
+        titol: "Coin Flip Tower",
         descripcio: "Texto descriptivo 1",
-        autor: "Author 1",
-        perfil: "../images/profile.webp"
+        autor: "Albert Galán",
+        perfil: "../images/profile.webp",
+        link: "https://albertgalan.github.io/Coin-Flip-Tower-Web/"
     },
     {
         video: "../images/video.webp",
         imatge: "../images/image.webp",
-        titol: "OUT - ESCAMAS DE CAUTIVERIO",
+        titol: "OUT: Escamas de Cautiverio",
         descripcio: "Texto descriptivo 2",
         autor: "Author 2",
-        perfil: "../images/profile.webp"
+        perfil: "../images/profile.webp",
+        link: "https://vbdp.github.io/OUT-Escamas-De-Cautiverio-Web/"
     },
     {
         video: "../images/video.webp",
@@ -21,7 +23,8 @@ const jocs = [
         titol: "UwUguasho",
         descripcio: "Texto descriptivo 3",
         autor: "Author 3",
-        perfil: "../images/profile.webp"
+        perfil: "../images/profile.webp",
+        link: "joc3.html"
     },
     {
         video: "../images/video.webp",
@@ -29,7 +32,8 @@ const jocs = [
         titol: "Proyecto-Y",
         descripcio: "Texto descriptivo 4",
         autor: "Author 4",
-        perfil: "../images/profile.webp"
+        perfil: "../images/profile.webp",
+        link: "joc4.html"
     },
     {
         video: "../images/video.webp",
@@ -37,15 +41,17 @@ const jocs = [
         titol: "The Three Faces",
         descripcio: "Texto descriptivo 5",
         autor: "Author 5",
-        perfil: "../images/profile.webp"
+        perfil: "../images/profile.webp",
+        link: "joc5.html"
     },
     {
         video: "../images/video.webp",
         imatge: "../images/image.webp",
-        titol: "Xenolancer-code",
+        titol: "Humanity's Edge",
         descripcio: "Texto descriptivo 6",
-        autor: "Author 6",
-        perfil: "../images/profile.webp"
+        autor: "Sergi Marqués",
+        perfil: "../images/profile.webp",
+        link: "https://raulromerocerrato.github.io/Humanity-s-Edge/index.html"
     },
 ];
 
@@ -58,6 +64,7 @@ function actualitzar(){
     document.getElementById("descripcio").textContent = jocs[index].descripcio;
     document.getElementById("autor").textContent = jocs[index].autor;
     document.getElementById("perfil").src = jocs[index].perfil;
+    document.getElementById("link").href = jocs[index].link;
 
     document.getElementById("comptador").textContent =
         (index + 1) + " de " + jocs.length;

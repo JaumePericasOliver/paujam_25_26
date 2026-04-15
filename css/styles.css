@@ -391,8 +391,3 @@ li{
 .arrow:hover{
     opacity: 0.5;
 }
-
-.joc-text a{
-    text-decoration: none;
-    color: inherit;
-}

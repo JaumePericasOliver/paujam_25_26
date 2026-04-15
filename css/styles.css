@@ -164,6 +164,11 @@ li{
 .margin-top-30px{
     margin-top: 30px;
 }
+
+.margin-top-5pc{
+    margin-top: 5%;
+}
+
 .padding-20px{
     padding: 20px;
 }
@@ -178,10 +183,35 @@ li{
 }
 
 
+.padding-40px{
+    padding: 40px;
+}
+
+.padding-5pc{
+    padding: 5%;
+}
+
+.padding-2pc{
+    padding: 2%;
+}
+
+.padding-20pc{
+    padding: 10%;
+}
+
+.width-100pc{
+    width: 100%;
+}
+
 /* Gap */
 .gap-5pc{
     gap: 5%;
 }
+
+.gap-20pc{
+    gap: 20%;
+}
+
 .gap-30px{
     gap: 30px;
 }
@@ -215,6 +245,14 @@ li{
 }
 .justify-content-space-between{
     justify-content: space-between;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.align-content-center{
+    align-content: center;
 }
 
 
@@ -312,4 +350,107 @@ li{
 }
 .bg-color-amber-gold{
     background-color: var(--color-amber-gold);
+}
+
+/* Index.html */
+.participants::before{
+    content:"0 " ;
+    color: var(--color-blue-violet);
+}
+
+.ubicacio::before{
+    content:"0 " ;
+    color: var(--color-blue-violet);
+}
+
+.progress-bar{
+    width: 100%;
+    max-width: 600px;
+    height: 14px;
+    background-color: #312d5e;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress {
+    width: 40%;
+    height: 100%;
+    background: var(--color-blue-violet);
+}
+
+.index-patrocinadors{
+    height: 100px;
+    background-color: var(--color-charcoal-blue);
+}
+
+.en-que-consisteix{
+    background-color: var(--color-deep-space-blue);
+    background-image: url(../images/EnQueConsisteix.webp);
+    background-size: cover;
+    background-color: rgb(15, 23, 42, 0.6);
+    background-blend-mode: darken;
+}
+
+.horari{
+    background-image: url(../images/Horari.webp);
+    background-size: cover;
+    background-color: rgb(15, 23, 42, 0.6);
+    background-blend-mode: darken;
+}
+
+.ubicacio-image-size{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.normativa{
+    background-image: url(../images/Normativa2.webp);
+    background-size: cover;
+    background-color: rgb(15, 23, 42, 0.6);
+    background-blend-mode: darken;
+}
+
+.moneda-image-size{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.slidecontainer {
+    width: 20%;
+}
+
+.slider {
+    -webkit-appearance:none;
+    width: 100%;
+    height: 25px;
+    background: var(--color-cool-steel);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 20px;
+}
+
+.index-jocs-presentats{
+    background-color: var(--color-blue-violet);
+    color: var(--color-platinum);
+    padding: 1%;
+    border-style: none;
+    border-radius: 18px;
+    width: 25%;
+    height: 10%;
+    cursor: pointer;
+}
+
+.index-jocs-presentats:hover{
+    background-color: var(--color-blue-violet);
+    opacity: 0.6;
+}
+
+
+
+.derechos{
+    background-color: var(--color-charcoal-blue);
 }

@@ -4,7 +4,7 @@ const jocs = [
         imatge: "../images/image.webp",
         titol: "Coin Flip Tower",
         descripcio: "Texto descriptivo 1",
-        autor: "Albert Galán",
+        autor: "Albert Galán Cànaves",
         perfil: "../images/profile.webp",
         link: "https://albertgalan.github.io/Coin-Flip-Tower-Web/"
     },
@@ -13,43 +13,34 @@ const jocs = [
         imatge: "../images/image.webp",
         titol: "OUT: Escamas de Cautiverio",
         descripcio: `OUT: Escamas de Cautiverio és una novel·la visual que narra la trobada entre un protagonista solitari i un ésser aquàtic captiu. A través d'una atmosfera malenconiosa, el joc explora la connexió emocional que neix entre dos "presoners" —un físic i l'altre emocional— i com les decisions del jugador determinen si aquesta relació portarà a la llibertat o a la perdició.`,
-        autor: "Author 2",
+        autor: "Vicenç Beltran Diaz",
         perfil: "../images/profile.webp",
         link: "https://vbdp.github.io/OUT-Escamas-De-Cautiverio-Web/"
     },
     {
         video: "../images/video.webp",
         imatge: "../images/image.webp",
-        titol: "UwUguasho",
+        titol: "Proyecto-Y",
         descripcio: "Texto descriptivo 3",
-        autor: "Author 3",
+        autor: "Cristian Nievas Cirer",
         perfil: "../images/profile.webp",
         link: "joc3.html"
     },
     {
         video: "../images/video.webp",
         imatge: "../images/image.webp",
-        titol: "Proyecto-Y",
+        titol: "The Three Faces",
         descripcio: "Texto descriptivo 4",
-        autor: "Author 4",
+        autor: "Jesus Fresneda Fuentespina",
         perfil: "../images/profile.webp",
         link: "joc4.html"
     },
     {
         video: "../images/video.webp",
         imatge: "../images/image.webp",
-        titol: "The Three Faces",
-        descripcio: "Texto descriptivo 5",
-        autor: "Author 5",
-        perfil: "../images/profile.webp",
-        link: "joc5.html"
-    },
-    {
-        video: "../images/video.webp",
-        imatge: "../images/image.webp",
         titol: "Humanity's Edge",
-        descripcio: "Texto descriptivo 6",
-        autor: "Sergi Marqués",
+        descripcio: "Texto descriptivo 5",
+        autor: "Sergi Marques Torres",
         perfil: "../images/profile.webp",
         link: "https://raulromerocerrato.github.io/Humanity-s-Edge/index.html"
     },

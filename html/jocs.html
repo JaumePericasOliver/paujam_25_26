@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="Pàgina web oficial de la Paujam 25-26.">
+	    <meta name="keywords" content="Web Oficial, PauJam, Blog, Jocs, Noticies">
+	    <meta name="author" content="">
+
+        <link rel="stylesheet" href="../css/styles.css">
+	    <link rel="apple-touch-icon" href="">
+	    <link rel="icon" href="" type="">
+
+	    <title>PauJam - Jocs</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul class="menu clear-list">
+                    <div class="center-flex-items responsive-image "><img src="../images/logo.webp" alt="Logo"></div>
+                    <li><a href="images/logo.webp"> Inici</a></li>
+                    <li><a href="jocs.html"> Jocs</a></li>
+                    <li><a href="classificacio.html"> Classificació</a></li>
+                    <li><a href="contacte.html"> Contacte</a></li>
+                    <li><a href="patrocinadors.html"> Patrocinadors</a></li>
+                    <li><a href="blog.html"> Blog</a></li>
+                    <li><a href="media.html"> Media</a></li>
+                </ul>
+	        </nav>
+        </header>
+
+        <h1 class="text-align-center">Jocs</h1>
+
+        <section class="jocs-container">
+            <button class="arrow left" onclick="anterior()">🡰</button>
+            <div class="joc-card">
+                <img id="video" src="../images/video.webp" class="joc-video" alt="Tràiler del joc">
+                <div class="joc-info">
+                    <img id="imatge" src="../images/image.webp" class="joc-img" alt="Logo del joc">
+                    <div class="joc-text">
+                        <h3 id="titol">Title</h3>
+                        <p id="descripcio">Texto descriptivo</p>
+                    </div>
+                    <div class="joc-author">
+                        <img id="perfil" src="../images/profile.webp" class="author-icon" alt="Foto de l'autor">
+                        <span id="autor">Author</span>
+                    </div>
+                </div>
+            </div>
+            <button class="arrow right" onclick="seguent()">🡲</button>
+        </section>
+
+        <h2 id="comptador" class="text-align-center">1 de 6</h2>
+
+        <section class="derechos padding-2pc">
+            <p>© 2026 [Nombres] · Todos los derechos reservados.</p>
+        </section>
+	    
+        <footer>
+        </footer>
+	
+    <script src="../js/jocs/jocs.js"></script>
+    </body>
+</html>

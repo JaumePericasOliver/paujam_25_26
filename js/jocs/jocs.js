@@ -2,7 +2,7 @@ const jocs = [
     {
         video: "../images/video.webp",
         imatge: "../images/image.webp",
-        titol: "Title 1",
+        titol: "Flip Coin Tower",
         descripcio: "Texto descriptivo 1",
         autor: "Author 1",
         perfil: "../images/profile.webp"
@@ -10,7 +10,7 @@ const jocs = [
     {
         video: "../images/video.webp",
         imatge: "../images/image.webp",
-        titol: "Title 2",
+        titol: "OUT - ESCAMAS DE CAUTIVERIO",
         descripcio: "Texto descriptivo 2",
         autor: "Author 2",
         perfil: "../images/profile.webp"
@@ -18,7 +18,7 @@ const jocs = [
     {
         video: "../images/video.webp",
         imatge: "../images/image.webp",
-        titol: "Title 3",
+        titol: "UwUguasho",
         descripcio: "Texto descriptivo 3",
         autor: "Author 3",
         perfil: "../images/profile.webp"
@@ -26,7 +26,7 @@ const jocs = [
     {
         video: "../images/video.webp",
         imatge: "../images/image.webp",
-        titol: "Title 4",
+        titol: "Proyecto-Y",
         descripcio: "Texto descriptivo 4",
         autor: "Author 4",
         perfil: "../images/profile.webp"
@@ -34,7 +34,7 @@ const jocs = [
     {
         video: "../images/video.webp",
         imatge: "../images/image.webp",
-        titol: "Title 5",
+        titol: "The Three Faces",
         descripcio: "Texto descriptivo 5",
         autor: "Author 5",
         perfil: "../images/profile.webp"
@@ -42,7 +42,7 @@ const jocs = [
     {
         video: "../images/video.webp",
         imatge: "../images/image.webp",
-        titol: "Title 6",
+        titol: "Xenolancer-code",
         descripcio: "Texto descriptivo 6",
         autor: "Author 6",
         perfil: "../images/profile.webp"

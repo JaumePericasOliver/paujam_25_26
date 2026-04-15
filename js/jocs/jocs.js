@@ -12,7 +12,7 @@ const jocs = [
         video: "../images/video.webp",
         imatge: "../images/image.webp",
         titol: "OUT: Escamas de Cautiverio",
-        descripcio: "Texto descriptivo 2",
+        descripcio: `OUT: Escamas de Cautiverio és una novel·la visual que narra la trobada entre un protagonista solitari i un ésser aquàtic captiu. A través d'una atmosfera malenconiosa, el joc explora la connexió emocional que neix entre dos "presoners" —un físic i l'altre emocional— i com les decisions del jugador determinen si aquesta relació portarà a la llibertat o a la perdició.`,
         autor: "Author 2",
         perfil: "../images/profile.webp",
         link: "https://vbdp.github.io/OUT-Escamas-De-Cautiverio-Web/"

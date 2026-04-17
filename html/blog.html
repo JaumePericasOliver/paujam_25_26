@@ -18,8 +18,18 @@
             <nav>
 	        </nav>
         </header>
+        <div id="popup" class="popup hide">
+            <div class="flex flex-direction-column popup-content bg-color-deep-space-blue align-items-center">
+                <div class="flex width-100pc justify-content-flex-end"><button id="closePopup" class="close-popup">&times;</button></div>
+                <h2 id="popupTitle" class="font-size-60px padding-left-15pc padding-right-15pc text-align-center">Títol</h2>
+                <div class="flex justify-content-center padding-left-15pc padding-right-15pc"><img id="popupImage" class="popup-image-size" src="../images/Contacte.webp" alt="Imatge d'un post"></div>
+                <p id="popupDescription" class="line-height-2 text-platinum padding-left-15pc padding-right-15pc text-align-justify">Descripció detallada</p>
+            </div>
+        </div>
 	    
-        <h1 class="text-align-center">Blog</h1>
+        <h1 id="titlePage" class="text-align-center">Blog</h1>
+
+        
 
         <div class="flex flex-direction-column gap-30px align-items-center" id="divPosts">
             <p id="loading" class="hide">Carregant...</p>

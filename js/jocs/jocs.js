@@ -1,13 +1,15 @@
 const jocs = [
+    /* COIN FLIP TOWER */
     {
         video: "../images/video.webp",
         imatge: "../images/image.webp",
         titol: "Coin Flip Tower",
-        descripcio: "Texto descriptivo 1",
+        descripcio: `Texto descriptivo 1`,
         autor: "Albert Galán Cànaves",
         perfil: "../images/profile.webp",
         link: "https://albertgalan.github.io/Coin-Flip-Tower-Web/"
     },
+    /* OUT: ESCAMAS DE CAUTIVERIO */
     {
         video: "../images/video.webp",
         imatge: "../images/image.webp",
@@ -17,29 +19,32 @@ const jocs = [
         perfil: "../images/profile.webp",
         link: "https://vbdp.github.io/OUT-Escamas-De-Cautiverio-Web/"
     },
+    /* SHARED TREASURE */
     {
         video: "../images/video.webp",
         imatge: "../images/image.webp",
         titol: "Shared Treasure",
-        descripcio: "Texto descriptivo 3",
+        descripcio: `Texto descriptivo 3`,
         autor: "Cristian Nievas Cirer",
         perfil: "../images/profile.webp",
         link: "https://francesco-che.github.io/Project-Y-WEB/"
     },
+    /* THE THREE FACES */
     {
         video: "../images/video.webp",
         imatge: "../images/image.webp",
         titol: "The Three Faces",
-        descripcio: "Texto descriptivo 4",
+        descripcio: `Texto descriptivo 4`,
         autor: "Jesus Fresneda Fuentespina",
         perfil: "../images/profile.webp",
         link: "https://jfresnedafuentespina.github.io/The-Three-Faces-web/"
     },
+    /* HUMANITY'S EDGE */
     {
         video: "../images/video.webp",
         imatge: "../images/image.webp",
         titol: "Humanity's Edge",
-        descripcio: "Texto descriptivo 5",
+        descripcio: `Texto descriptivo 5`,
         autor: "Sergi Marques Torres",
         perfil: "../images/profile.webp",
         link: "https://raulromerocerrato.github.io/Humanity-s-Edge/index.html"

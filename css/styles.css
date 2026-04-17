@@ -152,6 +152,9 @@ li{
 .margin-top-0px{
     margin-top: 0px;
 }
+.margin-left-5pc{
+    margin-left: 5%;
+}
 .margin-left-10pc{
     margin-left: 10%;
 }
@@ -240,6 +243,9 @@ li{
 /* Width and Height */
 .width-100pc{
     width: 100%;
+}
+.height-110px{
+    height: 110px;
 }
 
 /* Flexbox */
@@ -393,94 +399,86 @@ li{
 
 /* Contacte.html */
 .media-underline{
-    text-decoration: underline;
-    color: var(--color-blue-violet);
+   text-decoration: underline;
+   color: var(--color-blue-violet);
 }
-
 
 .box-contacte {
-    width: 100%;
-    height: 700px;
-    background-image: url(/images/Contacte.webp);
-    background-size: cover;
-    position: relative;
+   width: 100%;
+   height: 730px;
+   background-image: url(../images/Contacte.webp);
+   background-size: cover;
+   position: relative;
 }
-
 
 .box-contacte::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 0;
+   content: "";
+   position: absolute;
+   inset: 0;
+   background: rgba(0, 0, 0, 0.5);
+   z-index: 0;
 }
-
 
 .box-contacte > * {
-    position: relative;
-    z-index: 1;
+   position: relative;
+   z-index: 1;
 }
 
-
-.form-container {
-    width: 400px;
-    margin: 50px auto;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+#contactForm {
+   width: 400px;
+   margin: 50px auto;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
 }
-
 
 .input-normal {
-    width: 382px;
-    height: 40px;
-    padding: 8px;
-    font-size: 14px;
-    color: white;
-    background-color: rgba(255, 255, 255, 0.15);
-    border: 1px solid white;
-    border-radius: 6px;
-    outline: none;
+   width: 382px;
+   height: 40px;
+   padding: 8px;
+   font-size: 14px;
+   color: white;
+   background-color: rgba(255, 255, 255, 0.15);
+   border: 1px solid white;
+   border-radius: 6px;
+   outline: none;
 }
-
 
 .input-grande {
-    width: 382px;
-    height: 120px;
-    padding: 8px;
-    font-size: 14px;
-    color: white;
-    background-color: rgba(255, 255, 255, 0.15);
-    border: 1px solid white;
-    border-radius: 6px;
-    resize: none;
-    outline: none;
+   width: 382px;
+   height: 120px;
+   padding: 8px;
+   font-size: 14px;
+   color: white;
+   background-color: rgba(255, 255, 255, 0.15);
+   border: 1px solid white;
+   border-radius: 6px;
+   resize: none;
+   outline: none;
 }
-
 
 ::placeholder {
-    color: white;
-    opacity: 0.8;
+   color: white;
+   opacity: 0.8;
 }
-
 
 .contacte-button {
-    width: 100%;
-    height: 40px;
-    background-color: var(--color-amber-gold);
-    color: black;
-    font-size: 16px;
-    font-weight: bold;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
+   width: 100%;
+   height: 40px;
+   background-color: var(--color-amber-gold);
+   color: black;
+   font-size: 16px;
+   font-weight: bold;
+   border: none;
+   border-radius: 6px;
+   cursor: pointer;
 }
-
 
 .contacte-button:hover {
-    background-color: var(--color-blue-violet);
-    color: white;
+   background-color: var(--color-blue-violet);
+   color: white;
 }
+
 
 
 /* Color */

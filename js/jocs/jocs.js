@@ -20,11 +20,11 @@ const jocs = [
     {
         video: "../images/video.webp",
         imatge: "../images/image.webp",
-        titol: "Proyecto-Y",
+        titol: "Shared Treasure",
         descripcio: "Texto descriptivo 3",
         autor: "Cristian Nievas Cirer",
         perfil: "../images/profile.webp",
-        link: "joc3.html"
+        link: "https://francesco-che.github.io/Project-Y-WEB/"
     },
     {
         video: "../images/video.webp",
@@ -33,7 +33,7 @@ const jocs = [
         descripcio: "Texto descriptivo 4",
         autor: "Jesus Fresneda Fuentespina",
         perfil: "../images/profile.webp",
-        link: "joc4.html"
+        link: "https://jfresnedafuentespina.github.io/The-Three-Faces-web/"
     },
     {
         video: "../images/video.webp",

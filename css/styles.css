@@ -293,6 +293,9 @@ li{
 .font-size-60px{
     font-size: 60px;
 }
+.text-underline{
+    text-decoration: underline;
+}
 .underline:hover{
     text-decoration: underline;
 }
@@ -391,11 +394,11 @@ li{
     font-weight: 500;
     margin-top: 10px;
     margin-bottom: 10px;
+    overflow-wrap: break-word;
 }
 
 /* Classificacio2.html */
 .custom-grid{
-    /* grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); */
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     margin-left: 5%;

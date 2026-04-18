@@ -1,0 +1,11 @@
+@media (max-width: 800px){
+    h1{
+        font-size: 50px;
+    }
+    .name-points{
+        font-size: 15px;
+    }
+    .clean-dropdown{
+        font-size: 15px;
+    }
+}

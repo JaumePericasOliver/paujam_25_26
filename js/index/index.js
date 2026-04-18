@@ -69,7 +69,7 @@ updateProgressBar();
     slider.addEventListener("input", () => {
     const value = slider.value;
 
-    frame.src = `images/frames/frame_${value}.webp`;
+    frame.src = `images/Frames/frame_${value}.webp`;
     });
 
 });

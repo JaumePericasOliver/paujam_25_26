@@ -69,12 +69,24 @@ h4{
 
 hr{
     height: 5px;
-    background-color: var(--color-cool-steel);
+    background-color: var(--color-charcoal-blue);
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 a{
     color: var(--color-blue-violet);
     text-decoration: none;
+}
+
+img{
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+
+    -webkit-user-drag: none;
 }
 
 
@@ -113,37 +125,132 @@ li{
 }
 
 
-/* Image border */
+/* Border */
 .border-radius{
     border-radius: 18px;
 }
 
+/* Image */
+
+
+/* Display */
+.hide{
+    display: none;
+}
+
+
+/* Width and Height */
+.width-80pc{
+    width: 80%;
+}
+.width-100pc{
+    width: 100%;
+}
+
 
 /* Margins and Paddings */
+.margin-20px{
+    margin: 20px;
+}
+
+.margin-top-0px{
+    margin-top: 0px;
+}
+.margin-left-5pc{
+    margin-left: 5%;
+}
 .margin-left-10pc{
     margin-left: 10%;
 }
 .margin-right-10pc{
     margin-right: 10%;
 }
-.margin-bottom-10pc{
-    margin-bottom: 10%;
+.margin-left-20pc{
+    margin-left: 20%;
 }
-.margin-top-10pc{
-    margin-top: 10%;
+.margin-right-20pc{
+    margin-right: 20%;
 }
+.margin-top-10px{
+    margin-top: 10px;
+}
+.margin-bottom-10px{
+    margin-bottom: 10px;
+}
+.margin-top-30px{
+    margin-top: 30px;
+}
+
+.margin-top-5pc{
+    margin-top: 5%;
+}
+
 .padding-20px{
     padding: 20px;
+}
+.padding-left-20px{
+    padding-left: 20px;
+}
+.padding-right-20px{
+    padding-right: 20px;
+}
+.padding-left-10px{
+    padding-left: 10px;
+}
+.padding-left-15pc{
+    padding-left: 15%;
+}
+.padding-right-15pc{
+    padding-right: 15%;
+}
+
+
+.padding-40px{
+    padding: 40px;
+}
+
+.padding-5pc{
+    padding: 5%;
+}
+
+.padding-2pc{
+    padding: 2%;
+}
+
+.padding-20pc{
+    padding: 10%;
+}
+
+.width-100pc{
+    width: 100%;
 }
 
 /* Gap */
 .gap-5pc{
     gap: 5%;
 }
+
+.gap-20pc{
+    gap: 20%;
+}
+
 .gap-30px{
     gap: 30px;
 }
+.gap-10px{
+    gap: 10px;
+}
+.gap-20px{
+    gap: 20px;
+}
 
+/* Width and Height */
+.width-100pc{
+    width: 100%;
+}
+.height-110px{
+    height: 110px;
+}
 
 /* Flexbox */
 .flex{
@@ -158,22 +265,57 @@ li{
 .justify-content-center{
     justify-content: center;
 }
+.align-items-flex-end{
+    align-items: flex-end;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.justify-content-flex-end{
+    justify-content: flex-end;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.align-content-center{
+    align-content: center;
+}
+
 
 /* Grid */
-
+.grid{
+    display: grid;
+}
 
 /* Text */
+.enfasis-texto{
+    color: var(--color-sky-aqua);
+    font-weight: bold;
+}
 .text-align-center{
     text-align: center;
 }
-
-.text-align-right{
-    text-align: right;
-}
-
 .text-align-justify{
     text-align: justify;
 }
+.font-size-60px{
+    font-size: 60px;
+}
+.text-underline{
+    text-decoration: underline;
+}
+.underline:hover{
+    text-decoration: underline;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.line-height-2{
+    line-height: 2;
+}
+
 
 /* Blog.html */
 .blog-image-size{
@@ -181,9 +323,191 @@ li{
     height: 256px;
     object-fit: cover;
 }
+.popup-image-size{
+    width: 100%;
+    object-fit: cover;
+}
 .blog-text-size{
     font-size: 14px;
 }
+.popup{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.popup-content{
+    min-height: 100vh;
+    width: 100%;
+}
+.close-popup{
+    width: 50px;
+    height: 50px;
+    margin-top: 40px;
+    margin-right: 40px;
+    border-radius: 50%;
+    background: var(--color-cool-steel);
+    
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+}
+.close-popup:hover{
+    background: var(--color-amber-gold);
+    transition: background-color 0.25s, transform 0.5s, ease-out 0.5s;
+    transform: scale(1.05);
+}
+
+
+/* Classificacio.html */
+.podios{
+    width: 100%;
+}
+.contenedor-podios{
+    width: 25%;
+}
+.podio1{
+    height: 400px;
+}
+.podio2{
+    height: 300px;
+}
+.podio3{
+    height: 200px;
+}
+.clean-dropdown{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-family: Montserrat;
+    font-size: 20px;
+    color: var(--color-platinum);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.clean-dropdown option{
+    background-color: var(--color-prussian-blue);
+    font-size: 15px;
+}
+.podio-number{
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.name-points{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow-wrap: break-word;
+}
+
+/* Classificacio2.html */
+.custom-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+}
+.podio1-2{
+    height: 300px;
+}
+.podio2-2{
+    height: 250px;
+}
+.podio3-2{
+    height: 200px;
+}
+
+/* Contacte.html */
+.media-underline{
+   text-decoration: underline;
+   color: var(--color-blue-violet);
+}
+
+.box-contacte {
+   width: 100%;
+   height: 730px;
+   background-image: url(../images/Contacte.webp);
+   background-size: cover;
+   position: relative;
+}
+
+.box-contacte::before {
+   content: "";
+   position: absolute;
+   inset: 0;
+   background: rgba(0, 0, 0, 0.5);
+   z-index: 0;
+}
+
+.box-contacte > * {
+   position: relative;
+   z-index: 1;
+}
+
+#contactForm {
+   width: 400px;
+   margin: 50px auto;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+
+.input-normal {
+   width: 382px;
+   height: 40px;
+   padding: 8px;
+   font-size: 14px;
+   color: white;
+   background-color: rgba(255, 255, 255, 0.15);
+   border: 1px solid white;
+   border-radius: 6px;
+   outline: none;
+}
+
+.input-grande {
+   width: 382px;
+   height: 120px;
+   padding: 8px;
+   font-size: 14px;
+   color: white;
+   background-color: rgba(255, 255, 255, 0.15);
+   border: 1px solid white;
+   border-radius: 6px;
+   resize: none;
+   outline: none;
+}
+
+::placeholder {
+   color: white;
+   opacity: 0.8;
+}
+
+.contacte-button {
+   width: 100%;
+   height: 40px;
+   background-color: var(--color-amber-gold);
+   color: black;
+   font-size: 16px;
+   font-weight: bold;
+   border: none;
+   border-radius: 6px;
+   cursor: pointer;
+}
+
+.contacte-button:hover {
+   background-color: var(--color-blue-violet);
+   color: white;
+}
+
+
 
 /* Color */
 .bg-color-platinum{
@@ -192,8 +516,181 @@ li{
 .text-black{
     color: black;
 }
+.text-platinum{
+    color: var(--color-platinum);
+}
+.bg-color-charcoal-blue{
+    background-color: var(--color-charcoal-blue);
+}
+.bg-color-deep-space-blue{
+    background-color: var(--color-deep-space-blue);
+}
+.bg-color-blue-violet{
+    background-color: var(--color-blue-violet);
+}
+.bg-color-amber-gold{
+    background-color: var(--color-amber-gold);
+}
+
+/* Index.html */
+
+.under-line{
+    text-decoration: underline;
+}
+
+.participants::before{
+    content:"♟ " ;
+    color: var(--color-blue-violet);
+}
+
+.ubicacio::before{
+    content:"✈ " ;
+    color: var(--color-blue-violet);
+}
+
+.progress-bar{
+    width: 100%;
+    max-width: 600px;
+    height: 14px;
+    background-color: #312d5e;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress {
+    width: 40%;
+    height: 100%;
+    background: var(--color-blue-violet);
+}
+
+.index-patrocinadors{
+    height: 100px;
+    background-color: var(--color-charcoal-blue);
+}
+
+.en-que-consisteix{
+    background-color: var(--color-deep-space-blue);
+    background-image: url(../images/EnQueConsisteix.webp);
+    background-size: cover;
+    background-color: rgb(15, 23, 42, 0.6);
+    background-blend-mode: darken;
+}
+
+.horari{
+    background-image: url(../images/Horari.webp);
+    background-size: cover;
+    background-color: rgb(15, 23, 42, 0.6);
+    background-blend-mode: darken;
+}
+
+.ubicacio-image-size{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.normativa{
+    background-image: url(../images/Normativa2.webp);
+    background-size: cover;
+    background-color: rgb(15, 23, 42, 0.6);
+    background-blend-mode: darken;
+}
+
+.normativa-ol{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.index-moneda{
+    max-width: 215px;
+    max-height: 215px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.fondo-moneda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-sky-aqua);
+    border-radius: 18px;
+    width: 215px;
+    height: 215px;
+}
+
+.moneda-image-size{
+    display: block;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
+
+.slidecontainer {
+    width: 20%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 190px;
+    height: 4px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 18px;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: var(--color-blue-violet);
+    cursor: pointer;
+    border-radius: 18px;
+}
+
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: var(--color-blue-violet);
+  cursor: pointer;
+  border-radius: 18px;
+}
+
+
+.index-jocs-presentats{
+    background-color: var(--color-blue-violet);
+    color: var(--color-platinum);
+    padding: 1%;
+    border-style: none;
+    border-radius: 18px;
+    width: 300px;
+    height: 10%;
+    cursor: pointer;
+}
+
+.index-jocs-presentats:hover{
+    background-color: var(--color-blue-violet);
+    opacity: 0.6;
+    transition: background-color 0.2s, transform 0.4s, ease-out 0.4s;
+    transform: scale(1.02);
+}
 
 /* Media.html */
+.media-underline{
+   text-decoration: underline;
+   color: var(--color-blue-violet);
+}
+
 .media-image-small{
     width: 90%;
     height: 50%;
@@ -235,4 +732,12 @@ li{
 .media-box-third{
     width: 80%;
     height: 330px;
+}
+
+.media-top-10pc{
+    margin-top: 10%;
+}
+
+.media-bottom-10pc{
+    margin-bottom: 10%;
 }

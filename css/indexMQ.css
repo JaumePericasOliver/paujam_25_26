@@ -1,0 +1,65 @@
+@media (min-width: 901px){
+    .Ubicacio-MQ{
+        display: none;
+    }
+}
+
+@media (max-width: 900px){
+
+    .menu{
+        display: none;
+    }
+
+    .timer h3{
+        font-size: 30px;
+    }
+
+    .timer h4{
+        font-size: 20px;
+    }
+
+    .Ubicacio{
+        display: none;
+    }
+
+    .Ubicacio-MQ{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .normativa-ol{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .extra{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 650px){
+    .normativa-ol{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media (max-width: 500px){
+    
+    .timer h3{
+
+    }
+
+    .timer h4{
+        font-size: 17px;
+    }
+
+    .normativa-ol{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+

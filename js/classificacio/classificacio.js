@@ -10,10 +10,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         let url = urlApi;
 
         switch (value) {
-            case "game2":
-                url += "GwxQmWd2EQDinnZJqqYU0HcJjds3IpmBq6Ef2mdaKXG1Xw0iUCunXwz9Drlt/3";
-                break;
-
             case "game3":
                 url += "nL3ggwGvsiYZ5vzCqhAL58WnDcZgB9ad7FtDv82oaAAYa36UoJPS35sIbR9F/3";
                 break;

@@ -1,0 +1,151 @@
+@media (max-width: 600px) {
+    nav {
+        height: 65px;
+    }
+
+    .menu li {
+        font-size: 13px;
+    }
+
+    .menu a {
+        font-size: 12px;
+    }
+
+    .responsive-image img {
+        max-width: 40px;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    body {
+        font-size: 18px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+    
+    .media-image-small {
+        width: 90%;
+        height: auto;
+        max-height: 200px;
+    }
+
+    .media-image-height {
+        width: 90%;
+        height: auto;
+        max-height: 300px;
+    }
+
+    .media-image-large {
+        width: 100%;
+        height: auto;
+        max-height: 250px;
+    }
+
+    .media-image-small-second {
+        width: 100%;
+        height: auto;
+        max-height: 150px;
+    }
+
+    .media-box-second,
+    .media-box-third {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .media-box-third {
+        margin-top: 0px;
+        height: auto;
+    }
+
+    footer {
+        margin-top: 0px;
+    }
+
+    hr {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        height: 60px;
+    }
+
+    .menu li {
+        font-size: 12px;
+    }
+
+    .menu a {
+        font-size: 11px;
+    }
+
+    .responsive-image img {
+        max-width: 35px;
+    }
+
+    h1 {
+        font-size: 32px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    footer p {
+        font-size: 11px;
+    }
+
+    .media-image-small {
+        width: 90%;
+        height: auto;
+        max-height: 180px;
+    }
+
+    .media-image-height {
+        width: 90%;
+        height: auto;
+        max-height: 250px;
+    }
+
+    .media-image-large {
+        width: 100%;
+        height: auto;
+        max-height: 220px;
+    }
+
+    .media-image-small-second {
+        width: 100%;
+        height: auto;
+        max-height: 130px;
+    }
+
+    .media-box-second,
+    .media-box-third {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    .media-box-third {
+        margin-top: 0px;
+        height: auto;
+    }
+
+    footer {
+        margin-top: 0px;
+    }
+
+    hr {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}

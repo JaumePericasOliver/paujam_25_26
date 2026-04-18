@@ -301,7 +301,7 @@ li{
 }
 
 /* Contacte.html */
-.media-underline{
+.contacte-underline{
    text-decoration: underline;
    color: var(--color-blue-violet);
 }

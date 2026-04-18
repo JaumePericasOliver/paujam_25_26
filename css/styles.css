@@ -526,13 +526,18 @@ li{
 }
 
 /* Index.html */
+
+.under-line{
+    text-decoration: underline;
+}
+
 .participants::before{
-    content:"0 " ;
+    content:"♟ " ;
     color: var(--color-blue-violet);
 }
 
 .ubicacio::before{
-    content:"0 " ;
+    content:"✈ " ;
     color: var(--color-blue-violet);
 }
 
@@ -584,27 +589,60 @@ li{
     background-blend-mode: darken;
 }
 
+.index-moneda{
+    flex-wrap: wrap
+}
+
 .moneda-image-size{
+    display: block;
     height: 200px;
     width: 200px;
-    object-fit: cover;
+    margin: auto;
 }
 
 .slidecontainer {
     width: 20%;
 }
 
-.slider {
-    -webkit-appearance:none;
-    width: 100%;
-    height: 25px;
-    background: var(--color-cool-steel);
-    outline: none;
-    opacity: 0.7;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
-    border-radius: 20px;
+.slidecontainer {
+  width: 20%;
 }
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 4px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  border-radius: 18px;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: var(--color-blue-violet);
+  cursor: pointer;
+  border-radius: 18px;
+}
+
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: var(--color-blue-violet);
+  cursor: pointer;
+  border-radius: 18px;
+}
+
 
 .index-jocs-presentats{
     background-color: var(--color-blue-violet);
@@ -620,10 +658,6 @@ li{
 .index-jocs-presentats:hover{
     background-color: var(--color-blue-violet);
     opacity: 0.6;
-}
-
-
-
-.derechos{
-    background-color: var(--color-charcoal-blue);
+    transition: background-color 0.2s, transform 0.4s, ease-out 0.4s;
+    transform: scale(1.02);
 }

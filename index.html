@@ -20,13 +20,13 @@
             <nav>
                 <ul class="menu clear-list">
                     <div class="center-flex-items responsive-image "><img src="../images/logo.webp" alt="Logo"></div>
-                    <li><a href="images/logo.webp"> Inici</a></li>
-                    <li><a href="jocs.html"> Jocs</a></li>
-                    <li><a href="classificacio.html"> Classificació</a></li>
-                    <li><a href="contacte.html"> Contacte</a></li>
-                    <li><a href="patrocinadors.html"> Patrocinadors</a></li>
-                    <li><a href="blog.html"> Blog</a></li>
-                    <li><a href="media.html"> Media</a></li>
+                    <li><a href="index.html" class="under-line"> Inici</a></li>
+                    <li><a href="html/jocs.html"> Jocs</a></li>
+                    <li><a href="html/classificacio.html"> Classificació</a></li>
+                    <li><a href="html/contacte.html"> Contacte</a></li>
+                    <li><a href="html/patrocinadors.html"> Patrocinadors</a></li>
+                    <li><a href="html/blog.html"> Blog</a></li>
+                    <li><a href="html/media.html"> Media</a></li>
                 </ul>
 	        </nav>
         </header>
@@ -41,41 +41,46 @@
             </div>
             <div class="timer center-flex-items justify-content-center gap-30px padding-40px">
                 <div class="text-align-center">
-                    <h3>99</h3>
+                    <h3 id="days">99</h3>
                     <h4>DAYS</h4>
                 </div>
                 <div class="text-align-center">
-                    <h3>99</h3>
+                    <h3 id="hours">99</h3>
                     <h4>HOURS</h4>
                 </div>
                 <div class="text-align-center">
-                    <h3>99</h3>
+                    <h3 id="minutes">99</h3>
                     <h4>MINUTES</h4>
                 </div>
                 <div class="text-align-center">
-                    <h3>99</h3>
+                    <h3 id="seconds">99</h3>
                     <h4>SECONDS</h4>
                 </div>
             </div>
-            <div class="width-100pc">
+
+            <div class="width-100pc flex justify-content-center">
                 <div class="progress-bar">
-                    <div class="progress"></div>
+                    <div class="progress" id="progress"></div>
                 </div>
             </div>
+            
         </section>
 
         <hr>
 
         <section class="text-align-center padding-5pc en-que-consisteix">
             <h2>En què consisteix?</h2>
-            <p>Lorem Ipsum is simply <span>durum</span> text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p>PauJam és un esdeveniment dedicat a la creativitat i al talent emergent en l’àmbit del desenvolupament de videojocs. Durant la jornada, els alumnes presenten els projectes que han creat, oferint als assistents l’oportunitat de provar cada un dels jocs de primera mà.</p>
+            <p>Els convidats no només gaudeixen de l’experiència de joc, sinó que també participen activament en l’avaluació, atorgant puntuacions individuals a cada proposta.</p>
+            <p>A més, l’esdeveniment introdueix un component competitiu entre els mateixos jugadors: cada videojoc reconeixerà el millor jugador, premiant aquells que aconsegueixin les puntuacions més altes o demostrin més habilitat en cada proposta.</p>
+            <p>Al final de la jornada, se celebra una cerimònia en la qual s’anuncien els guanyadors en diferents categories, incloent-hi els millors videojocs presentats, el premi al millor creador i els millors jugadors de cada joc, destacant així tant l’esforç dels desenvolupadors com la destresa dels participants.</p>
         </section>
 
         <hr>
 
         <section class="text-align-center padding-2pc horari">
             <h2>Horari</h2>
-            <p>Es farà dia <span>14</span> de <span>maig</span> a les <span>9:00h</span> a les <span>15:00h</span></p>
+            <p>Es farà dia <span class="enfasis-texto">14</span> de <span class="enfasis-texto">maig</span> a les <span class="enfasis-texto">9:00h</span> a les <span class="enfasis-texto">15:00h</span></p>
         </section>
 
         <hr>
@@ -83,7 +88,7 @@
         <section class="padding-5pc">
             <h2 class="text-align-center ">Ubicació</h2>
             <div class="flex gap-20pc justify-content-center margin-top-5pc">
-                <img src="images/Contacte.webp" alt="Ubicació" class="ubicacio-image-size border-radius">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1093.3330047689608!2d2.9136027095206947!3d39.72542598532879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297c5bc8646bcfd%3A0x34ecf1aecb0da723!2sCIFP%20Pau%20Casesnoves!5e1!3m2!1sen!2ses!4v1776238614111!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="border-radius ubicacio-image-size"></iframe>
                 <div class="align-content-center">
                     <h3>CIFP PAUCASESNOVES</h3>
                     <h4>Carrer Joan Miró nº22</h4>
@@ -97,11 +102,11 @@
                     <h4>Pati</h4>
                 </div>
                 
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1093.3330047689608!2d2.9136027095206947!3d39.72542598532879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297c5bc8646bcfd%3A0x34ecf1aecb0da723!2sCIFP%20Pau%20Casesnoves!5e1!3m2!1sen!2ses!4v1776238614111!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="border-radius ubicacio-image-size"></iframe>
+                <img src="images/Ubicacio(Foto Top).webp" alt="Ubicació" class="ubicacio-image-size border-radius">
             </div>
         </section>
 
-        <hr>
+
 
         <section class="normativa text-align-center padding-20pc">
             <h2>Normativa</h2>
@@ -113,25 +118,25 @@
             </ul>
         </section>
 
-        <hr>
 
-        <section class="padding-2pc flex gap-20pc justify-content-center align-content-center">
-            <div class="index.moneda slidecontainer">
-                <img src="/images/logo.webp" alt="" class="moneda-image-size">
-                <input type="range" min="1" max="36" value="18" class="slider" id="myRange">
+
+        <section class="padding-2pc flex gap-20pc justify-content-center align-content-center align-items-center">
+            <div class="index-moneda slidecontainer justify-content-center align-content-center align-items-center">
+                <img src="/images/Frames/frame_1.webp" alt="frame" class="moneda-image-size" id="frame">
+                <input type="range" min="1" max="36" value="1" class="slider" id="myRange">
             </div>
             <button class="index-jocs-presentats"><h2>Jocs Presentats ></h2></button>
         </section>
 
-        <hr>
 
-        <section class="derechos padding-2pc">
-            <p>© 2026 [Nombres] · Todos los derechos reservados.</p>
+
+        <section class="bg-color-charcoal-blue padding-2pc">
+            <p>© 2026 Deivid Martínez, Marc Sánchez, Nestor Schierse y Marc González · Todos los derechos reservados.</p>
         </section>
 	    
         <footer>
         </footer>
 	
-        <script type="module" src=""></script>
+        <script src="js/index/index.js"></script>
     </body>
 </html>

@@ -15,8 +15,22 @@
 	    <title>PauJam</title>
     </head>
     <body>
-        <header>
-            <nav>
+        <header id="header">
+            <nav id="navMenu">
+                <ul id="MQMenu" class="menu clear-list">
+                    <div id="containerTopMenu" class="center-flex-items responsive-image">
+                        <img src="../images/logo.webp" alt="Logo">
+                        <img id="MQ2MenuButton" class="hide" src="../images/menu.webp" alt="Dropdown button">
+                    </div>
+                    <li class="MQ-nav-item"><a href="../index.html">Inici</a></li>
+                    <li class="MQ-nav-item"><a href="jocs.html">Jocs</a></li>
+                    <li class="MQ-nav-item"><a href="classificacio.html" class="under-line">Classificació</a></li>
+                    <li class="MQ-nav-item"><a href="contacte.html">Contacte</a></li>
+                    <li class="MQ-nav-item"><a href="patrocinadors.html">Patrocinadors</a></li>
+                    <li class="MQ-nav-item"><a href="blog.html">Blog</a></li>
+                    <li class="MQ-nav-item"><a href="media.html">Media</a></li>
+                    <li id="MQMenuButton" class="hide"><img src="../images/menu.webp" alt="Dropdown button"></li>
+                </ul>
 	        </nav>
         </header>
 	    
@@ -75,15 +89,19 @@
             </div>
         </section>
         
-        <hr>
+        <hr class="margin-top-40px margin-bottom-40px">
         <section class="flex flex-direction-column align-items-center margin-left-20pc margin-right-20pc">
             <h2>Premis</h2>
             <p class="text-align-justify margin-top-0px">Tant el <span class="enfasis-texto">guanyador</span> del <span class="enfasis-texto">joc</span> com els <span class="enfasis-texto">jugadors</span> amb la <span class="enfasis-texto">puntuació</span> més <span class="enfasis-texto">alta</span> de cada joc obtendrà un <span class="enfasis-texto">premi</span>.</p>
         </section>
 
         <footer>
+            <section class="bg-color-charcoal-blue padding-2pc margin-top-40px">
+                <p class="font-size-14px">© 2026 Deivid Martínez, Marc Sánchez, Nestor Schierse y Marc González · Todos los derechos reservados.</p>
+            </section>
         </footer>
 	
         <script src="../js/classificacio/classificacio.js"></script>
+        <script src="../js/menu.js"></script>
     </body>
 </html>

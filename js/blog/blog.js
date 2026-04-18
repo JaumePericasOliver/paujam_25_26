@@ -33,16 +33,17 @@ document.addEventListener('DOMContentLoaded', async () => {
             const div1 = document.createElement("div");
             const div2 = document.createElement("div");
             const div3 = document.createElement("div");
-            const img = document.createElement("img");
+            // const img = document.createElement("img");
             const title = document.createElement("h2");
             const description = document.createElement("p");
 
+            div1.setAttribute("id", "containerNew");
             div1.classList.add("flex", "width-80pc", "gap-5pc", "align-items-center", "bg-color-platinum", "border-radius", "padding-20px");
             
-            img.classList.add("blog-image-size");
-            img.setAttribute("src", "../images/Contacte.webp");
-            img.setAttribute("alt", "Imatge d'un post");
-            div2.appendChild(img);
+            // img.classList.add("blog-image-size");
+            // img.setAttribute("src", "../images/Contacte.webp");
+            // img.setAttribute("alt", "Imatge d'un post");
+            // div2.appendChild(img);
 
             title.classList.add("text-black", "font-montserrat", "underline", "cursor-pointer", "text-aling-justify");
             title.textContent = post.title;

@@ -15,10 +15,25 @@
 	    <title>PauJam</title>
     </head>
     <body>
-        <header>
-            <nav>
+        <header id="header">
+            <nav id="navMenu">
+                <ul id="MQMenu" class="menu clear-list">
+                    <div id="containerTopMenu" class="center-flex-items responsive-image">
+                        <img src="../images/logo.webp" alt="Logo">
+                        <img id="MQ2MenuButton" class="hide" src="../images/menu.webp" alt="Dropdown button">
+                    </div>
+                    <li class="MQ-nav-item"><a href="../index.html">Inici</a></li>
+                    <li class="MQ-nav-item"><a href="jocs.html">Jocs</a></li>
+                    <li class="MQ-nav-item"><a href="classificacio.html">Classificació</a></li>
+                    <li class="MQ-nav-item"><a href="contacte.html">Contacte</a></li>
+                    <li class="MQ-nav-item"><a href="patrocinadors.html">Patrocinadors</a></li>
+                    <li class="MQ-nav-item"><a href="blog.html" class="under-line">Blog</a></li>
+                    <li class="MQ-nav-item"><a href="media.html">Media</a></li>
+                    <li id="MQMenuButton" class="hide"><img src="../images/menu.webp" alt="Dropdown button"></li>
+                </ul>
 	        </nav>
         </header>
+
         <div id="popup" class="popup hide">
             <div class="flex flex-direction-column popup-content bg-color-deep-space-blue align-items-center">
                 <div class="flex width-100pc justify-content-flex-end"><button id="closePopup" class="close-popup">&times;</button></div>
@@ -38,8 +53,12 @@
         </div>
 
         <footer>
+            <section class="bg-color-charcoal-blue padding-2pc margin-top-40px">
+                <p class="font-size-14px">© 2026 Deivid Martínez, Marc Sánchez, Nestor Schierse y Marc González · Todos los derechos reservados.</p>
+            </section>
         </footer>
 	
         <script src="../js/blog/blog.js"></script>
+        <script src="../js/menu.js"></script>
     </body>
 </html>

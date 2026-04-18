@@ -275,7 +275,9 @@ li{
 
 
 /* Grid */
-
+.grid{
+    display: grid;
+}
 
 /* Text */
 .enfasis-texto{
@@ -389,6 +391,25 @@ li{
     font-weight: 500;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+/* Classificacio2.html */
+.custom-grid{
+    /* grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); */
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+}
+.podio1-2{
+    height: 300px;
+}
+.podio2-2{
+    height: 250px;
+}
+.podio3-2{
+    height: 200px;
 }
 
 /* Contacte.html */

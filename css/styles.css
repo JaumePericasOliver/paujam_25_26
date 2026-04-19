@@ -770,3 +770,80 @@ li{
 .media-bottom-10pc{
     margin-bottom: 10%;
 }
+
+/* jocs.html */
+.jocs-container{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.joc-card{
+    background-color: var(--color-charcoal-blue);
+    padding: 20px;
+    border-radius: 18px;
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 20px;
+}
+
+.joc-video{
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 10px;
+}
+
+.joc-info{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 20px;
+}
+
+.joc-img{
+    width: 300px;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.joc-text h3{
+    margin: 0;
+}
+
+.joc-text p{
+    margin: 0;
+    font-size: 16px;
+    color: var(--color-cool-steel);
+}
+
+.joc-author{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.author-icon{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.arrow{
+    background-color: var(--color-blue-violet);
+    border: none;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    color: #1e293b;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.arrow:hover{
+    opacity: 0.5;
+}

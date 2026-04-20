@@ -17,16 +17,21 @@
 	    <title>PauJam</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <ul class="menu clear-list">
-                    <div class="center-flex-items responsive-image "><img src="images/logo.webp" alt="Logo"></div>
-                    <li><a href="index.html" class="under-line"> Inici</a></li>
-                    <li><a href="html/jocs.html"> Jocs</a></li>
-                    <li><a href="html/classificacio.html"> Classificació</a></li>
-                    <li><a href="html/contacte.html"> Contacte</a></li>
-                    <li><a href="html/blog.html"> Blog</a></li>
-                    <li><a href="html/media.html"> Media</a></li>
+        <header id="header">
+            <nav id="navMenu">
+                <ul id="MQMenu" class="menu clear-list">
+                    <div id="containerTopMenu" class="center-flex-items responsive-image">
+                        <img src="../images/logo.webp" alt="Logo">
+                        <img id="MQ2MenuButton" class="hide" src="../images/menu.webp" alt="Dropdown button">
+                    </div>
+                    <li class="MQ-nav-item"><a href="index.html" class="under-line">Inici</a></li>
+                    <li class="MQ-nav-item"><a href="html/jocs.html">Jocs</a></li>
+                    <li class="MQ-nav-item"><a href="html/classificacio.html">Classificació</a></li>
+                    <li class="MQ-nav-item"><a href="html/contacte.html">Contacte</a></li>
+                    <li class="MQ-nav-item"><a href="html/patrocinadors.html">Patrocinadors</a></li>
+                    <li class="MQ-nav-item"><a href="html/blog.html">Blog</a></li>
+                    <li class="MQ-nav-item"><a href="html/media.html">Media</a></li>
+                    <li id="MQMenuButton" class="hide"><img src="../images/menu.webp" alt="Dropdown button"></li>
                 </ul>
 	        </nav>
         </header>
@@ -133,10 +138,10 @@
             <div class="flex flex-direction-column justify-content-center normativa-ol">
                 <h2 class="">Normativa</h2>
                 <ol class="">
-                <li>Respetar el <span>material</span> del centro.</li>
-                <li>No me reiré de los compañeros.</li>
-                <li>Jugar una sola partida.</li>
-                <li>No alzar la voz de más.</li>
+                <li><span class="enfasis-texto">Respectar</span> el <span class="enfasis-texto">material</span> del centre.</li>
+                <li>No me <span class="enfasis-texto">riuré</span> dels <span class="enfasis-texto">companys</span>.</li>
+                <li>Jugar <span class="enfasis-texto">una</span> sola <span class="enfasis-texto">partida</span>.</li>
+                <li>No <span class="enfasis-texto">elevar</span> la <span class="enfasis-texto">veu</span>.</li>
                 </ol>
             </div>
             
@@ -152,7 +157,7 @@
                 </div>
                 <input type="range" min="1" max="36" value="1" class="slider" id="myRange">
             </div>
-            <button class="index-jocs-presentats margin-top-30px"><h2>Jocs Presentats ></h2></button>
+            <button onclick="window.location.href='html/jocs.html'" class="index-jocs-presentats margin-top-30px"><h2>Jocs Presentats ></h2></button>
         </section>
 
         <hr>
@@ -160,11 +165,12 @@
         
 	    
         <footer>
-            <section class="bg-color-charcoal-blue padding-2pc">
-                <p>© 2026 Deivid Martínez, Marc Sánchez, Nestor Schierse y Marc González · Todos los derechos reservados.</p>
+            <section class="bg-color-charcoal-blue padding-2pc margin-top-40px">
+                <p class="font-size-14px">© 2026 Deivid Martínez, Marc Sánchez, Nestor Schierse y Marc González · Todos los derechos reservados.</p>
             </section>
         </footer>
 	
         <script src="js/index/index.js"></script>
+        <script src="js/menu.js"></script>
     </body>
 </html>

@@ -6,10 +6,6 @@
 
 @media (max-width: 900px){
 
-    .menu{
-        display: none;
-    }
-
     .timer h3{
         font-size: 30px;
     }

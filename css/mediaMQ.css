@@ -1,15 +1,4 @@
 @media (max-width: 600px) {
-    nav {
-        height: 65px;
-    }
-
-    .menu li {
-        font-size: 13px;
-    }
-
-    .menu a {
-        font-size: 12px;
-    }
 
     .responsive-image img {
         max-width: 40px;

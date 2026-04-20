@@ -16,21 +16,24 @@
 
 </head>
 <body>
-	<header>
-		<nav>
-			
-			<ul class="menu clear-list">
-				<div class="center-flex-items responsive-image "><img src="../images/logo.webp" alt="Logo"></div>
-				<li><a href="../index.html"> Inici</a></li>
-				<li><a href="jocs.html"> Jocs</a></li>
-				<li><a href="classificacio.html"> Classificació</a></li>
-				<li><a href="contacte.html"> Contacte</a></li>
-				<li><a href="patrocinadors.html"> Patrocinadors</a></li>
-				<li><a href="blog.html"> Blog</a></li>
-				<li class="media-underline"><a href="media.html"> Media</a></li>
-			</ul>
-		</nav>
-	</header>
+	<header id="header">
+            <nav id="navMenu">
+                <ul id="MQMenu" class="menu clear-list">
+                    <div id="containerTopMenu" class="center-flex-items">
+                        <img src="../images/logo.webp" alt="Logo">
+                        <img id="MQ2MenuButton" class="hide" src="../images/menu.webp" alt="Dropdown button">
+                    </div>
+                    <li class="MQ-nav-item"><a href="../index.html">Inici</a></li>
+                    <li class="MQ-nav-item"><a href="jocs.html">Jocs</a></li>
+                    <li class="MQ-nav-item"><a href="classificacio.html">Classificació</a></li>
+                    <li class="MQ-nav-item"><a href="contacte.html">Contacte</a></li>
+                    <li class="MQ-nav-item"><a href="patrocinadors.html">Patrocinadors</a></li>
+                    <li class="MQ-nav-item"><a href="blog.html">Blog</a></li>
+                    <li class="MQ-nav-item"><a href="media.html" class="under-line">Media</a></li>
+                    <li id="MQMenuButton" class="hide"><img src="../images/menu.webp" alt="Dropdown button"></li>
+                </ul>
+	        </nav>
+        </header>
 	
     <h1 class="text-align-center">Media</h1>
     
@@ -57,10 +60,12 @@
 		</div>
 
 		<footer class="bg-color-charcoal-blue margin-top-30px">
-            <section class="flex align-items-center margin-left-5pc height-110px">
-                <p>© 2026 Deivid Martínez, Marc Sánchez, Nestor Schierse y Marc González · Todos los derechos reservados.</p>
+            <section class="bg-color-charcoal-blue padding-2pc margin-top-40px">
+                <p class="font-size-14px">© 2026 Deivid Martínez, Marc Sánchez, Nestor Schierse y Marc González · Todos los derechos reservados.</p>
             </section>
         </footer>
+
+		<script src="../js/menu.js"></script>
 
 </body>
 </html>

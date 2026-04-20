@@ -21,7 +21,7 @@ const jocs = [
     },
     /* SHARED TREASURE */
     {
-        video: "../images/video.webp",
+        video: "https://drive.google.com/file/d/1zti_ZOkvnNzE59tgSkUCUQ3BTXD02RAf/preview",
         imatge: "../images/LogoSharedTreasure.webp",
         titol: "Shared Treasure",
         descripcio: `Endinsa't en una aventura on cada decisió té el seu pes. Shared Treasure combina la intensitat d'un Bullet Hell amb l'estratègia d'un roguelike : esquiva, dispara i derrota onades d'esperits per acumular energia màgica.`,

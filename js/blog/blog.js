@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             description.classList.add("text-align-justify", "blog-text-size", "text-black");
             let smallText = post.content.split(" ").slice(0, 15).join(" ") + "...";
-            description.textContent = smallText;
+            description.innerHTML = smallText;
             div3.appendChild(description);
 
             div1.appendChild(div2);
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             // Open Popup
             title.addEventListener("click", () => {
                 popupTitle.textContent = post.title;
-                popupDescription.textContent = post.content;
+                popupDescription.innerHTML = post.content;
                 titlePage.classList.add("hide");
                 divPosts.classList.add("hide");
                 divPosts.classList.remove("flex");

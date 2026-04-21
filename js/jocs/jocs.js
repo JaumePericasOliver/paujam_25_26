@@ -60,14 +60,16 @@ function actualitzar(){
     document.getElementById("descripcio").textContent = jocs[index].descripcio;
     document.getElementById("autor").textContent = jocs[index].autor;
     document.getElementById("perfil").src = jocs[index].perfil;
-    document.getElementById("link").href = jocs[index].link;
+
+    document.getElementById("link").onclick = () => {
+        window.location.href = jocs[index].link;
+    };
 
     document.getElementById("comptador").textContent =
         (index + 1) + " de " + jocs.length;
 }
 
-const iframe = document.getElementById("video");
-iframe.src = jocs[index].video;
+
 
 function seguent(){
     index++;

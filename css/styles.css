@@ -386,6 +386,9 @@ li{
     transition: background-color 0.25s, transform 0.5s, ease-out 0.5s;
     transform: scale(1.05);
 }
+#containerNew h2{
+    color: black;
+}
 
 
 /* Classificacio.html */

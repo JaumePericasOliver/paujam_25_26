@@ -272,6 +272,9 @@ li{
 .height-90pc{
     height: 90%;
 }
+.min-height-100vh{
+    min-height: 100vh;
+}
 
 /* Flexbox */
 .flex{
@@ -386,8 +389,16 @@ li{
     transition: background-color 0.25s, transform 0.5s, ease-out 0.5s;
     transform: scale(1.05);
 }
-#containerNew h2{
-    color: black;
+#containerNew *{
+    color: var(--color-platinum);
+}
+.blog-main{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin: 0;
+}
+#popup li{
+    cursor: auto;
 }
 
 

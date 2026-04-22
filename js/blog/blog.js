@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const description = document.createElement("p");
 
             div1.setAttribute("id", "containerNew");
-            div1.classList.add("flex", "width-80pc", "gap-5pc", "align-items-center", "bg-color-platinum", "border-radius", "padding-20px");
+            div1.classList.add("flex", "width-80pc", "gap-5pc", "align-items-center", "bg-color-charcoal-blue", "border-radius", "padding-20px");
             
             // img.classList.add("blog-image-size");
             // img.setAttribute("src", "../images/Contacte.webp");

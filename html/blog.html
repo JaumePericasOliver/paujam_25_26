@@ -14,7 +14,7 @@
 
 	    <title>PauJam</title>
     </head>
-    <body>
+    <body class="min-height-100vh blog-main">
         <header id="header">
             <nav id="navMenu">
                 <ul id="MQMenu" class="menu clear-list">
@@ -42,14 +42,16 @@
             </div>
         </div>
 	    
-        <h1 id="titlePage" class="text-align-center">Blog</h1>
+        <main>
+            <h1 id="titlePage" class="text-align-center">Blog</h1>
 
-        
+            <div class="flex flex-direction-column gap-30px align-items-center" id="divPosts">
+                <p id="loading" class="hide">Carregant...</p>
+                <p id="error" class="hide">Error</p>
+            </div>
 
-        <div class="flex flex-direction-column gap-30px align-items-center" id="divPosts">
-            <p id="loading" class="hide">Carregant...</p>
-            <p id="error" class="hide">Error</p>
-        </div>
+        </main>
+    
 
         <footer>
             <section class="bg-color-charcoal-blue padding-2pc margin-top-40px">

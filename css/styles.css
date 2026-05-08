@@ -212,6 +212,15 @@ li{
 .padding-left-10px{
     padding-left: 10px;
 }
+.padding-left-5pc{
+    padding-left: 5%;
+}
+.padding-right-5pc{
+    padding-right: 5%;
+}
+.padding-10pc{
+    padding: 10%;
+}
 .padding-left-15pc{
     padding-left: 15%;
 }
@@ -613,10 +622,14 @@ li{
 
 .en-que-consisteix{
     background-color: var(--color-deep-space-blue);
-    background-image: url(../images/EnQueConsisteix.webp);
-    background-size: cover;
-    background-color: rgb(15, 23, 42, 0.6);
-    background-blend-mode: darken;
+}
+
+.en-que-consisteix div{
+    max-width: 100%;
+    background-color: var(--color-charcoal-blue);
+    padding: 2%;
+    border-radius: 18px;
+    text-align: justify;
 }
 
 .horari{
@@ -633,15 +646,25 @@ li{
 }
 
 .normativa{
-    background-image: url(../images/Normativa2.webp);
-    background-size: cover;
-    background-color: rgb(15, 23, 42, 0.6);
-    background-blend-mode: darken;
+    background-color: var(--color-deep-space-blue);
+}
+
+.normativa-div {
+    max-width: 100%;
+    background-color: var(--color-charcoal-blue);
+    padding: 2%;
+    border-radius: 18px;
+    text-align: justify;
+    align-items: center;
 }
 
 .normativa-ol{
     padding-left: 25%;
     padding-right: 25%;
+}
+
+.normativa li{
+    cursor:default;
 }
 
 .index-moneda{
